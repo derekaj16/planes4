@@ -6,7 +6,7 @@ function App() {
 
   async function getPlanes() {
     try {
-      const response = await axios.get('http://34.217.46.210:8080');
+      const response = await axios.get('http://54.190.158.141:8080');
       return response.data; // Assuming the data is in response.data
     } catch (error) {
       console.log(error);
